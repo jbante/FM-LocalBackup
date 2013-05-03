@@ -32,7 +32,8 @@ Anyone may do anything with this software. There is no warranty.
 
 ## Attributions
 
-This module is inspired by solutions by [Kevin Frank][1] (with help from Bruce Robertson) and [Michael Rocharde][2].
+This module is inspired by solutions by [Kevin Frank][1] (with help from [Bruce Robertson][2]) and [Michael Rocharde][3].
 
 [1]: http://www.filemakerhacks.com/?p=5293 "A Simple Backup Script, revised"
-[2]: http://itunes.apple.com/us/book/filemaker-me/id532231582?mt=11 "FileMaker & Me"
+[2]: http://www.concise-design.com "Concise Design"
+[3]: http://itunes.apple.com/us/book/filemaker-me/id532231582?mt=11 "FileMaker & Me"
