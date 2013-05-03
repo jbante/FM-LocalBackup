@@ -13,7 +13,7 @@ To start making local backups automatically every 10 minutes, run the "Start Aut
 As a best practice, I recommend choosing one file to act as your solution's "dispatch" file. Then steps 2-N only have to be performed in the dispatch file.
 
 1. Copy the "Local Backup" script folder into the "Modules" folder of each file in your solution.
-2. In each non-dispatch file, edit the "Create Local Backup of All Solution Files { autoBackup }" script to call the "Dispatch Backup of All Solution Files" script from the dispatch file.
+2. In each non-dispatch file, edit the "Create Local Backup of All Solution Files" script to call the "Dispatch Backup of All Solution Files" script from the dispatch file.
 3. In the dispatch file, edit the "Create Local Backup of Solution File ..." script to reference each file in your solution.
 4. In the dispatch file, edit the "Go to Auto Backup Layout" script to specify a layout in your solution to use as the Auto Backup splashscreen. Auto Backups use a dedicated window with an OnTimer trigger to run repeated backups without interfering with any OnTimer triggers you may be using with other windows. This layout specifies what to display in that window.
 5. (optional) In the dispatch file, edit the "Get Local Backup Settings" script to use a non-default backup path, auto-backup interval, auto-backup window name, or auto-backup window position. See Configuration Options for more information.
