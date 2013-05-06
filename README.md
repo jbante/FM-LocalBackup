@@ -2,6 +2,14 @@
 
 Local Backup creates backup copies of non-hosted FileMaker solutions during development. Since some developers prefer to work on files locally, not hosted on a server, they miss out on the backup features of FileMaker Server. This module gives developers a substitute backup mechanism.
 
+## Attributions
+
+This module is inspired by (copied from) solutions by [Kevin Frank][1] (with help from [Bruce Robertson][2]) and [Michael Rocharde][3].
+
+[1]: http://www.filemakerhacks.com/?p=5293 "A Simple Backup Script, revised"
+[2]: http://www.concise-design.com "Concise Design"
+[3]: http://itunes.apple.com/us/book/filemaker-me/id532231582?mt=11 "FileMaker & Me"
+
 ## Usage
 
 To create a local backup right now, run the "Create Local Backup of All Solution Files" script.
@@ -29,11 +37,3 @@ The auto-backup window name and initial position can be changed by editing the "
 ## License
 
 Anyone may do anything with this software. There is no warranty.
-
-## Attributions
-
-This module is inspired by (copied from) solutions by [Kevin Frank][1] (with help from [Bruce Robertson][2]) and [Michael Rocharde][3].
-
-[1]: http://www.filemakerhacks.com/?p=5293 "A Simple Backup Script, revised"
-[2]: http://www.concise-design.com "Concise Design"
-[3]: http://itunes.apple.com/us/book/filemaker-me/id532231582?mt=11 "FileMaker & Me"
